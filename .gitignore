@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Al empaquetar con PyInstaller (el .exe se comparte en "Releases", no en el repositorio)
+build/
+dist/
+*.spec
+*.exe
+
+# Editores y sistema
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
